@@ -6607,7 +6607,9 @@ button.close {
 .footer{
   padding:10px 20px 10px 20px;
   background-color:gray;
+  clear:both;
 }
+
 .footer > .footer-container{
   margin-right: auto;
   margin-left:auto;
@@ -6615,4 +6617,39 @@ button.close {
   text-align: center;
   color:white;
 }
+.wrap-container{
+  margin-top:50px;
+  margin-right: auto;
+  margin-left:auto;
+  color:white;
+  background: url('http://i10.topit.me/o036/1003650475fa00788d.jpg') no-repeat center transparent;
+   
+   }
+
+.container-box{
+padding:10px;
+text-align: center;
+margin-right: auto;
+margin-left:auto;
+height:950px;
+width:60%;
+margin-top:50px;
+}
+.container-box > p{
+  text-align:center;
+}
+.container-box > .box{
+  float:left;
+  width:33%;
+  text-align: center;
+  padding:10px;
+}
+.wrap{
+ 
+  
+}
+.brightness{
+            -webkit-filter:brightness(.5);
+             -webkit-filter:blur(3px);
+        }
 /*# sourceMappingURL=bootstrap.css.map */
