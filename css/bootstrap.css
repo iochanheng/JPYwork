@@ -4383,6 +4383,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  opacity:0.9;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6600,13 +6601,15 @@ button.close {
     cursor: pointer;
     text-align: center;
     opacity:0.7;
+    border-radius: 100%;
 }
 
 
 
 .footer{
   padding:10px 20px 10px 20px;
-  background-color:gray;
+  background-color:black;
+  opacity: 0.5;
   clear:both;
 }
 
@@ -6616,7 +6619,13 @@ button.close {
   width:50%;
   text-align: center;
   color:white;
+  font-family: 微軟正黑體;
+  font-weight: bold;
 }
+.footer > .footer-container > h3{
+font-weight:bold;
+}
+
 .wrap-container{
   margin-top:50px;
   margin-right: auto;
@@ -6645,7 +6654,7 @@ margin-top:50px;
   padding:10px;
 }
 .wrap{
- 
+ background: url('http://iochanheng.github.io/JPYwork/img/star.jpg') no-repeat center transparent;
   
 }
 .brightness{
@@ -6653,3 +6662,88 @@ margin-top:50px;
              -webkit-filter:blur(3px);
         }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.content{
+margin: 0 auto;
+margin-top: 50px;
+width:50%;
+margin-bottom:0px;
+
+}
+
+.content > .aboutusbanner{
+height:80px;
+width:100%;
+background-color: #F5F5F5;
+}
+
+.content > .aboutusbanner > h1{
+text-align: center;
+font-size: 40px;
+padding:20px;
+color:gray;
+}
+
+.content > .aboutuscontent {
+margin-bottom: 500px;
+}
+.content > .aboutuscontent >h2{
+background: -moz-linear-gradient(top, rgba(32,30,153,1) 0%, rgba(32,30,153,0.86) 50%, rgba(32,30,153,0.79) 65%, rgba(32,30,153,0.7) 86%, rgba(32,30,153,0.6) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(32,30,153,1)), color-stop(50%,rgba(32,30,153,0.86)), color-stop(65%,rgba(32,30,153,0.79)), color-stop(86%,rgba(32,30,153,0.7)), color-stop(100%,rgba(32,30,153,0.6))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#201e99', endColorstr='#99201e99',GradientType=0 ); /* IE6-9 */
+border-radius: 50px;
+display:inline-block;
+padding:10px;
+font-size: 24px;
+font-weight:bold;
+color:white;
+font-family: 微軟正黑體;
+
+width:100%;
+text-align: center;
+}
+.content > .aboutuscontent >h3{
+font-size:18px;
+font-family: 微軟正黑體;
+margin-left:20px;
+font-weight: bold;
+}
+.content > .aboutuscontent >p{
+padding-left:22px;
+padding-right:22px;
+line-height: 2;
+}
+.content > .aboutuscontent >.box{
+  text-align: center;
+  float:left;
+  width:33.33%;
+  padding:0px 20px 0px 20px;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  color:white;
+}
+.content > .aboutuscontent >.box>h3{
+font-size:18px;
+font-family: 微軟正黑體;
+font-weight: bold;
+}
+.content > .aboutuscontent >.box>p{
+padding-left:22px;
+padding-right:22px;
+line-height: 2;
+}
+
+.clear{
+  clear:both;
+}
+
+a:hover{
+  font-weight: bold;
+}
