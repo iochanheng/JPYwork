@@ -2492,6 +2492,7 @@ label {
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
+  padding:0px 0px 10px 30px;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -2530,8 +2531,8 @@ output {
   color: #555;
 }
 .form-control {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: auto;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
@@ -2628,7 +2629,8 @@ input[type="search"] {
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-top: 4px \9;
-  margin-left: -20px;
+  margin-left: -5px;
+  margin-top:30px;
 }
 .radio + .radio,
 .checkbox + .checkbox {
@@ -3874,6 +3876,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #eee;
+  font-weight:bold;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -6609,7 +6612,7 @@ button.close {
 .footer{
   padding:10px 20px 10px 20px;
   background-color:black;
-  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.2);
   clear:both;
 }
 
@@ -6668,7 +6671,7 @@ margin: 0 auto;
 margin-top: 50px;
 width:50%;
 margin-bottom:0px;
-
+height:1000px;
 }
 
 .content > .aboutusbanner{
@@ -6686,6 +6689,7 @@ color:gray;
 
 .content > .aboutuscontent {
 margin-bottom: 500px;
+height:auto;
 }
 .content > .aboutuscontent >h2{
 background: -moz-linear-gradient(top, rgba(32,30,153,1) 0%, rgba(32,30,153,0.86) 50%, rgba(32,30,153,0.79) 65%, rgba(32,30,153,0.7) 86%, rgba(32,30,153,0.6) 100%); /* FF3.6+ */
@@ -6702,7 +6706,6 @@ font-size: 24px;
 font-weight:bold;
 color:white;
 font-family: 微軟正黑體;
-
 width:100%;
 text-align: center;
 }
@@ -6744,6 +6747,77 @@ line-height: 2;
   clear:both;
 }
 
-a:hover{
+
+.contentus{
+margin-top:50px;
+}
+
+.contentus > img{
+width:100px;
+height:100px;
+}
+
+.contentus > h1{
+color:white; 
+font-size:24px;
+font-family:微軟正黑體;
+font-weight:bold;
+}
+
+.navbar-brand-img{
+  width:40px;
+  height:40px;
+  float:left;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:10px;
+}
+
+
+.wrapcontentus{
+  background-color: #e8e8e8;
+}
+
+.contectus > img{
+width:150px;
+height:150px;
+margin-top:-30px;
+margin-bottom:100px;
+}
+
+.content > .contectuscontent {
+background-color: white;
+border-radius:10px;
+height:500px;
+
+}  
+
+.content > .contectuscontent > h1 {
+color:black;
+padding:30px;
+}
+
+.content > .contectuscontent > input{
+  margin: 0px 0px 0px 10px;
+  width:20%;
+  word-wrap: break-word; 
+  word-break: normal; 
+}
+
+.img-thumbnail:hover{
+opacity:0.5;
+font-weight: bold;
+
+}
+.row > .col-lg-4 > a:hover{
   font-weight: bold;
+}
+
+.labelsex{
+  margin-top:25px;
+  margin-left:-10px;
+}
+
+.labeltext{
+  font-family:微軟正黑體;
 }
