@@ -6840,12 +6840,15 @@ font-weight: bold;
 
 .home-categories-section {
   margin: 0;
-  padding: 20px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
   width: 100%;
   background: #F2F2F2;
   text-align: center;
 }
 
+.home-categories-section > .home-categories > ul li{
+margin-bottom:0px;
+}
 .home-categories-title {
   color: #000000;
   font-family: "trajan-pro-3", "Helvetica Neue", 微軟正黑體, Arial, sans-serif;
@@ -6863,7 +6866,6 @@ font-weight: bold;
 
 
 .home-categories > li {
-  margin: 0 0 10px 0;
   list-style: none;
   text-align: center;
   position: relative;
@@ -6938,3 +6940,4 @@ display:none;
   color:blue;
   font-weight: bold;
 }
+
