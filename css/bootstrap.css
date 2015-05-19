@@ -4410,9 +4410,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   font-weight:bold;
-  font-size:16px;
+  font-size:18px;
+  font-family:微軟正黑體;
   color:yellow;
-  background-color: transparent;
+   -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;  
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
