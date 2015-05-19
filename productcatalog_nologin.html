@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<meta http-equiv="Page-Exit" content="revealTrans(Duration=5.0,Transition=4)">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -34,7 +33,7 @@
   <body>
     <div id="gotop"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"><br>TOP</span></div>
     <!-- Fixed navbar -->
-    <div class="wrap" >
+    <div class="wrapcontentus" >
       <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container" style="width:auto;">
         <div class="navbar-header">
@@ -49,9 +48,9 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="http://iochanheng.github.io/JPYwork/companyintroduct.html">公司介紹</a></li>
-            <li><a href="#about">預約保養</a></li>
-            <li><a href="#contact">商品目錄</a></li>
+            <li><a href="#booking">預約保養</a></li>
             <li><a href="http://iochanheng.github.io/JPYwork/companylocation.html">據點查詢</a></li>
+            <li><a href="http://iochanheng.github.io/JPYwork/productcatalog.html">商品目錄</a></li>
           </ul>
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
@@ -60,7 +59,10 @@
             <button type="submit" class="btn btn-default">搜尋</button>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">汽車百科</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModalA">註冊</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModalB">登入</a></li>
+            <li><a href="#" >汽車百科</a></li>
+
             <li><a href="contectus.html">聯絡我們</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">會員中心 <span class="caret"></span></a>
@@ -81,81 +83,109 @@
         </div><!--/.nav-collapse -->
       </div>
       </nav>
-          <div class="content">
+      <div class="content">
            
-            <div class="aboutuscontent">
-                <h2>據點查詢</h2><br>
+            <div class="productcontent">
+                <h2>商品目錄</h2><hr>
                 <div class="box">
-                <img src="img/1.jpg" alt=""/>
-                <h3>雲林斗六店 </h3>
-                <p>地址：雲林縣斗六市文化路267號<br>
-                電話：05-5353111<br>
-                傳真：05-5350532</p>
+                  <img src="img/producttype1.png" alt=""/>
+                  <h3>百貨商品</h3>
+                    <div class="box-hover">
+                    <h4>百貨商品</h4>
+                    <p>百種汽車小物，任君挑選。</p>
+                    </div>
                 </div>
                 <div class="box">
-                <img src="img/2.jpg" alt=""/>
-                <h3>台南新營店</h3>
-                <p>地址：台南市新營區復興路312號<br>
-                電話：06-6595333<br>
-                傳真：06-6595708 </p>
+                  <img src="img/producttype1.png" alt="" />
+                  <h3>油品專區</h3>
+                    <div class="box-hover">
+                    <h4>油品專區</h4>
+                    <p>各大廠牌油品、均有發售。</p>
+                    </div>
                 </div>
                 <div class="box">
-                <img src="img/3.jpg" alt=""/>
-                <h3>高雄岡山店</h3> 
-                <p>地址：高雄市岡山區岡山路50號 <br>
-                電話：07-6242695 <br>
-                傳真：07-6242694 </p>
+                  <img src="img/producttype1.png" alt=""/>
+                  <h3>輪胎鋁圈 </h3>
+                    <div class="box-hover">
+                    <h4>輪胎鋁圈</h4>
+                    <p>附送更換、維修服務</p>
+                    </div>
                 </div>
                 <div class="box">
-                <img src="img/4.jpg" alt=""/>
-                <h3>高雄左營店 </h3>
-                <p>地址：高雄市左營區曾子路120號<br>
-                電話：07-3436388<br>
-                傳真：07-3436126 </p>
+                  <img src="img/producttype1.png" alt="" />
+                  <h3>改裝商品</h3>
+                    <div class="box-hover">
+                    <h4>改裝商品</h4>
+                    <p>改裝汽車、強化性能。</p>
+                    </div>
                 </div>
                 <div class="box">
-                <img src="img/5.jpg" alt=""/>
-                <h3>高雄中華店 </h3>
-                <p>地址：高雄市三民區中華二路63號  <br>
-                電話：07-3122218<br>
-                傳真：07-3232806 </p>
+                  <img src="img/producttype1.png" alt=""/>
+                  <h3>車用電子</h3>
+                    <div class="box-hover">
+                    <h4>車用電子</h4>
+                    <p>各式汽車3C，強化汽車功能性。</p>
+                    </div>
                 </div>
                 <div class="box">
-                <img src="img/6.jpg" alt=""/>
-                <h3>高雄建國店 </h3>
-                <p>地址：高雄市苓雅區建國一路70號<br>
-                電話：07-7113370<br>
-                傳真：07-7113321 </p>
+                  <img src="img/producttype1.png" alt="" />
+                  <h3>其它</h3>
+                    <div class="box-hover">
+                    <h4>其它</h4>
+                    <p>各式商品，應有盡有。</p>
+                    </div>
                 </div>
-                <div class="box">
-                <img src="img/7.jpg" alt=""/>
-                <h3>高雄小港店 </h3>
-                <p>地址：高雄市小港區沿海一路103號<br>
-                電話：07-8036780<br>
-                傳真：07-8616103 </p>
-                </div>
-                <div class="box">
-                <img src="img/8.jpg" alt=""/>
-                <h3>屏東建國店 </h3>
-                <p>地址：屏東市安鎮里大豐路1號<br>
-                電話：08-7535050<br>
-                傳真：08-7532121 </p>
-                </div>
-                <div class="box">
-                <img src="img/9.jpg" alt=""/>
-                <h3>屏東忠孝店 </h3>
-                <p>地址：屏東市忠孝路198號<br>
-                電話：08-7336386<br> 
-                傳真：08-7336392</p>
-                </div>
+
             </div>
-          </div>
-
-      
-      
-
+      </div>
      <!-- /BGIMG -->
-          
+          <!--註冊頁面Modal -->
+<div class="modal fade" id="myModalA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">註冊頁面</h4>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control clearmargin" placeholder="會員卡號：："><div class="clear"></div>
+        <input type="text" class="form-control clearmargin" placeholder="帳號："><div class="clear"></div>
+        <input type="text" class="form-control clearmargin" placeholder="密碼："><div class="clear"></div>
+        <input type="text" class="form-control clearmargin" placeholder="再次輸入密碼："><div class="clear"></div>
+        <input type="text" class="form-control clearmargin" placeholder="Email："><div class="clear"></div>
+        <input type="text" class="form-control clearmargin" placeholder="再次輸入Email："><div class="clear"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+        <button type="button" class="btn btn-primary">送出</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--註冊頁面ModalEnd-->
+<!--登入頁面Modal -->
+<div class="modal fade" id="myModalB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">註冊頁面</h4>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control clearmargin" placeholder="帳號："><div class="clear"></div>
+        <input type="text" class="form-control clearmargin" placeholder="密碼："><div class="clear"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+        <button type="button" class="btn btn-primary">登入</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--登入頁面ModalEnd-->
           <div class="footer">
               <div class="footer-container">
                 <h3>真便宜汽車精品生活館</h3>
@@ -163,6 +193,8 @@
               </div>
           </div>
       </div>
+
+</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
