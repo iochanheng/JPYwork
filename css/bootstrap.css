@@ -1116,7 +1116,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: 990px;
+  height: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1256,7 +1256,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
-  font-family: 微軟正黑體;
+  font-family: å¾®è»Ÿæ­£é»‘é«”;
   font-weight: bold;
 }
 h2,
@@ -1569,6 +1569,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0px 1px 30px -5px;
 }
 @media (min-width: 768px) {
   .container {
@@ -4387,28 +4388,30 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #383838;
+  border-color: #FFFFFF;
   opacity:0.9;
 }
 .navbar-default .navbar-brand {
-  color: black;
-  font-size:200;
+  color: white;
+  font-size: 20px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: white;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #FFF;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  font-weight:bold;
+  font-size:16px;
+  color:yellow;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -6246,7 +6249,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 0px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -6281,8 +6284,8 @@ button.close {
     right: 0%;
     left: 0%;
     top:75%;
-    opacity:0.7;
     padding-bottom: 30px;
+    background-color:rgba(0,0,0,0.7);
   }
   .carousel-indicators {
     bottom: 20px;
@@ -6631,7 +6634,7 @@ button.close {
   width:50%;
   text-align: center;
   color:white;
-  font-family: 微軟正黑體;
+  font-family: å¾®è»Ÿæ­£é»‘é«”;
   font-weight: bold;
 }
 .footer > .footer-container > h3{
@@ -6714,13 +6717,13 @@ padding:10px;
 font-size: 24px;
 font-weight:bold;
 color:white;
-font-family: 微軟正黑體;
+font-family: å¾®è»Ÿæ­£é»‘é«”;
 width:100%;
 text-align: center;
 }
 .content > .aboutuscontent >h3{
 font-size:18px;
-font-family: 微軟正黑體;
+font-family: å¾®è»Ÿæ­£é»‘é«”;
 margin-left:20px;
 font-weight: bold;
 }
@@ -6743,7 +6746,7 @@ line-height: 2;
 }
 .content > .aboutuscontent >.box>h3{
 font-size:18px;
-font-family: 微軟正黑體;
+font-family: å¾®è»Ÿæ­£é»‘é«”;
 font-weight: bold;
 }
 .content > .aboutuscontent >.box>p{
@@ -6768,13 +6771,13 @@ padding:10px;
 font-size: 38px;
 font-weight:bold;
 color:black;
-font-family: 微軟正黑體;
+font-family: å¾®è»Ÿæ­£é»‘é«”;
 width:100%;
 text-align: center;
 }
 .content > .productcontent >h3{
 font-size:18px;
-font-family: 微軟正黑體;
+font-family: å¾®è»Ÿæ­£é»‘é«”;
 margin-left:20px;
 font-weight: bold;
 }
@@ -6796,7 +6799,7 @@ line-height: 2;
 }
 .content > .productcontent > .box > h3{
 font-size:18px;
-font-family: 微軟正黑體;
+font-family: å¾®è»Ÿæ­£é»‘é«”;
 font-weight: bold;
 }
 .content > .productcontent > .box > p{
@@ -6863,7 +6866,7 @@ height:100px;
 .contentus > h1{
 color:white; 
 font-size:24px;
-font-family:微軟正黑體;
+font-family:å¾®è»Ÿæ­£é»‘é«”;
 font-weight:bold;
 }
 
@@ -6935,7 +6938,7 @@ font-weight: bold;
 }
 
 .labeltext{
-  font-family:微軟正黑體;
+  font-family:å¾®è»Ÿæ­£é»‘é«”;
 }
 
 .home-categories-section {
@@ -6951,7 +6954,7 @@ margin-bottom:0px;
 }
 .home-categories-title {
   color: #000000;
-  font-family: "trajan-pro-3", "Helvetica Neue", 微軟正黑體, Arial, sans-serif;
+  font-family: "trajan-pro-3", "Helvetica Neue", å¾®è»Ÿæ­£é»‘é«”, Arial, sans-serif;
   font-size: 28px;
   letter-spacing: 0.06em;
   text-transform: capitalize;
