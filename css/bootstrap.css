@@ -1080,6 +1080,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+   background: url('http://iochanheng.github.io/JPYwork/img/star.jpg') no-repeat top transparent;
 }
 input,
 button,
@@ -1256,7 +1257,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
-  font-family: å¾®è»Ÿæ­£é»‘é«”;
+  font-family:"微軟正黑體";
   font-weight: bold;
 }
 h2,
@@ -3879,7 +3880,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
   font-weight:bold;
 }
 .nav > li.disabled > a {
@@ -4388,9 +4388,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #383838;
+  background-color: rgba(38,38,38,0.3);
   border-color: #FFFFFF;
-  opacity:0.9;
 }
 .navbar-default .navbar-brand {
   color: white;
@@ -6611,23 +6610,27 @@ button.close {
     right: 20px;
     bottom: 50px;    
     padding: 10px 10px;    
-    font-size: 20px;
     background: #FFF;
-    color: rgb(182, 182, 182);
     cursor: pointer;
     text-align: center;
-    opacity:0.7;
-    border-radius: 20px;
-    box-shadow: 2px 0px 10px 1px;
+    box-shadow: 0px 0px 1px 1px;
     z-index:9999;
+    border-radius: 31px;
+    color: #444;
 }
 
+#gotop:hover{
+  background-color: rgba(255, 226, 1, 1);
+  color:white;
+    -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
 
 
 .footer{
   padding:10px 20px 10px 20px;
-  background-color:#202121;
-
+  background-color:rgba(32, 33, 33, 0.6);
   clear:both;
 }
 
@@ -6637,11 +6640,17 @@ button.close {
   width:50%;
   text-align: center;
   color:white;
-  font-family: å¾®è»Ÿæ­£é»‘é«”;
+  font-family: "微軟正黑體";
   font-weight: bold;
 }
 .footer > .footer-container > h3{
 font-weight:bold;
+}
+
+.footer > .footer-container > .footericon{
+width:40px;
+height:40px;
+display:inline-block;
 }
 
 .wrap-container{
@@ -6703,30 +6712,28 @@ color:gray;
 }
 
 .content > .aboutuscontent {
-margin-bottom: 500px;
-height:auto;
+  height:auto;
+}
+
+.content > .aboutuscontent > hr{
+  width:100%;
+  display:inline-block;
+  margin-top:10px;
 }
 .content > .aboutuscontent >h2{
-background: -moz-linear-gradient(top, rgba(32,30,153,1) 0%, rgba(32,30,153,0.86) 50%, rgba(32,30,153,0.79) 65%, rgba(32,30,153,0.7) 86%, rgba(32,30,153,0.6) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(32,30,153,1)), color-stop(50%,rgba(32,30,153,0.86)), color-stop(65%,rgba(32,30,153,0.79)), color-stop(86%,rgba(32,30,153,0.7)), color-stop(100%,rgba(32,30,153,0.6))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(32,30,153,1) 0%,rgba(32,30,153,0.86) 50%,rgba(32,30,153,0.79) 65%,rgba(32,30,153,0.7) 86%,rgba(32,30,153,0.6) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#201e99', endColorstr='#99201e99',GradientType=0 ); /* IE6-9 */
 border-radius: 50px;
 display:inline-block;
 padding:10px;
-font-size: 24px;
+font-size: 32px;
 font-weight:bold;
 color:white;
-font-family: å¾®è»Ÿæ­£é»‘é«”;
+font-family: 微軟正黑體;
 width:100%;
 text-align: center;
 }
 .content > .aboutuscontent >h3{
 font-size:18px;
-font-family: å¾®è»Ÿæ­£é»‘é«”;
+font-family: "微軟正黑體";
 margin-left:20px;
 font-weight: bold;
 }
@@ -6749,7 +6756,7 @@ line-height: 2;
 }
 .content > .aboutuscontent >.box>h3{
 font-size:18px;
-font-family: å¾®è»Ÿæ­£é»‘é«”;
+font-family: "微軟正黑體";
 font-weight: bold;
 }
 .content > .aboutuscontent >.box>p{
@@ -6774,13 +6781,13 @@ padding:10px;
 font-size: 38px;
 font-weight:bold;
 color:black;
-font-family: å¾®è»Ÿæ­£é»‘é«”;
+font-family: 微軟正黑體;
 width:100%;
 text-align: center;
 }
 .content > .productcontent >h3{
 font-size:18px;
-font-family: å¾®è»Ÿæ­£é»‘é«”;
+font-family: 微軟正黑體;
 margin-left:20px;
 font-weight: bold;
 }
@@ -6802,7 +6809,7 @@ line-height: 2;
 }
 .content > .productcontent > .box > h3{
 font-size:18px;
-font-family: å¾®è»Ÿæ­£é»‘é«”;
+font-family: 微軟正黑體;
 font-weight: bold;
 }
 .content > .productcontent > .box > p{
@@ -6869,7 +6876,7 @@ height:100px;
 .contentus > h1{
 color:white; 
 font-size:24px;
-font-family:å¾®è»Ÿæ­£é»‘é«”;
+font-family:微軟正黑體;
 font-weight:bold;
 }
 
@@ -6907,6 +6914,7 @@ margin-bottom:100px;
   margin-top: -200px;
   margin-bottom:200px;
   margin-left:450px;
+  font-family: 微軟正黑體;
 }
 
 .content > .contectuscontent {
@@ -6931,6 +6939,31 @@ opacity:0.5;
 font-weight: bold;
 
 }
+
+.row > .col-lg-4 > a > h4{
+  color:rgba(95, 95, 95, 1);
+  font-weight:bold;
+  font-family:微軟正黑體;
+}
+
+.row > .col-lg-4 > h3{
+  color:rgba(95, 95, 95, 1);
+  font-weight:bold;
+  font-family:微軟正黑體;
+  font-size:14px;
+  margin-top:5px;
+}
+
+.row > .col-lg-4 > p{
+font-size:12px;
+color:orange;
+}
+
+.row > .col-lg-4 > a >img{
+height:auto;
+width:250px;
+}
+
 .row > .col-lg-4 > a:hover{
   font-weight: bold;
 }
@@ -6941,7 +6974,7 @@ font-weight: bold;
 }
 
 .labeltext{
-  font-family:å¾®è»Ÿæ­£é»‘é«”;
+  font-family:微軟正黑體;
 }
 
 .home-categories-section {
@@ -6957,11 +6990,11 @@ margin-bottom:0px;
 }
 .home-categories-title {
   color: #000000;
-  font-family: "trajan-pro-3", "Helvetica Neue", å¾®è»Ÿæ­£é»‘é«”, Arial, sans-serif;
+  font-family: "trajan-pro-3", "Helvetica Neue", "微軟正黑體", Arial, sans-serif;
   font-size: 28px;
   letter-spacing: 0.06em;
   text-transform: capitalize;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -7047,3 +7080,11 @@ display:none;
   font-weight: bold;
 }
 
+
+.bold{
+  font-weight: bold;
+}
+
+.bgcolorwhite{
+  background-color: white;
+}
