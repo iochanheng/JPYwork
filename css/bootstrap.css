@@ -4385,7 +4385,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(38,38,38,0.3);
+  background-color: rgba(38,38,38,0.8);
   border-color: #FFFFFF;
 }
 .navbar-default .navbar-brand {
@@ -4405,10 +4405,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  font-weight:bold;
-  color:white;
+  color:yellow;
   border-bottom: 2px solid yellow;
-  font-family:微軟正黑體;
    -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;  
@@ -7116,6 +7114,7 @@ font-weight: bold;
 letter-spacing:2px;
 font-family:微軟正黑體;
 border-left: 5px solid #234594;
+box-shadow:0px 15px 10px -19px #000;
 }
 
 #producttypelist > ul > li:hover{
@@ -7146,13 +7145,18 @@ border-left: 5px solid #0ABAB5;
 width:1010px;
 }
 
-#protuctgridcontent > ul{
+#productgridcontent{
+  padding-top:25px;
+  box-shadow: 0px 0px 5px -2px;
+}
+
+#productgridcontent > ul{
   margin: 0 0 0 0;
   padding: 10px 0 35px 0;
   overflow: hidden;
 }
 
-#protuctgridcontent > ul > li{
+#productgridcontent > ul > li{
   text-align: center;
   display: block;
   float: left;
@@ -7164,16 +7168,16 @@ width:1010px;
   list-style: none;
 }
 
-#protuctgridcontent > ul > li > a >h4{
+#productgridcontent > ul > li > a >h4{
   color:rgba(95, 95, 95, 1);
 }
 
-#protuctgridcontent > ul > li > a >img{
+#productgridcontent > ul > li > a >img{
 width:220px;
 height:220px;
 }
 
-#protuctgridcontent > ul > li > a:hover{
+#productgridcontent > ul > li > a:hover{
   opacity:0.8;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
@@ -7197,11 +7201,6 @@ opacity:0.7;
 }
 
 .row > .col-lg-3 > a >img:hover {
-width:400px;
-height:220px;
-border:1px solid #ddd;
-border-radius:4px;
-box-shadow:0px 15px 40px -18px #000;
 opacity:1;
 }
 
