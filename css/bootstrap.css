@@ -1080,7 +1080,6 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-   background: url('http://iochanheng.github.io/JPYwork/img/star.jpg') no-repeat top transparent;
 }
 input,
 button,
@@ -1129,8 +1128,6 @@ img {
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
@@ -4381,7 +4378,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: -15px;text-decoration: -c
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4409,9 +4406,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   font-weight:bold;
-  font-size:18px;
+  color:white;
+  border-bottom: 2px solid yellow;
   font-family:微軟正黑體;
-  color:yellow;
    -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;  
@@ -6591,6 +6588,13 @@ button.close {
 .inner-top{
   padding-top:60px;
   text-align: center;
+  padding-bottom:50px;
+}
+
+
+.inner-middle{
+  padding:20px 0px 50px 0px;
+  text-align: center;
 }
 
 #rowheader{
@@ -6620,8 +6624,7 @@ button.close {
 }
 
 #gotop:hover{
-  background-color: rgba(255, 226, 1, 1);
-  color:white;
+ box-shadow: 1px 2px 8px -1px;
     -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
@@ -6942,9 +6945,7 @@ padding:30px;
 }
 
 .img-thumbnail:hover{
-opacity:0.5;
-font-weight: bold;
-
+opacity:0.7;
 }
 
 .row > .col-lg-4 > a > h4{
@@ -7093,7 +7094,7 @@ display:none;
 }
 
 .bgcolorwhite{
-  background-color: white;
+ background-color: rgba(0,0,0,0.5);
 }
 
 #producttypelist{
@@ -7138,6 +7139,7 @@ border-left: 5px solid #0ABAB5;
 
 #productgridimg{
   width: 1010px;
+  height:550px;
 }
 
 #productgridimg >img{
@@ -7172,7 +7174,7 @@ height:220px;
 }
 
 #protuctgridcontent > ul > li > a:hover{
-opacity:0.7;
+  opacity:0.8;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
@@ -7180,4 +7182,34 @@ opacity:0.7;
 
 .orange{
   color:orange;
+}
+
+.row > .col-lg-3 {
+}
+
+.row > .col-lg-3 > a >img {
+width:400px;
+height:220px;
+border:1px solid #ddd;
+border-radius:4px;
+box-shadow:0px 15px 40px -18px #000;
+opacity:0.7;
+}
+
+.row > .col-lg-3 > a >img:hover {
+width:400px;
+height:220px;
+border:1px solid #ddd;
+border-radius:4px;
+box-shadow:0px 15px 40px -18px #000;
+opacity:1;
+}
+
+
+.inner-middle-title{
+font-size:42px;
+font-family:微軟正黑體;
+font-weight:bold;
+margin-bottom:70px;
+letter-spacing: 20px;
 }
